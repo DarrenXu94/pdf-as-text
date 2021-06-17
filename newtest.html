@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <script src="//mozilla.github.io/pdf.js/build/pdf.js" crossorigin="anonymous"></script>
+
+    <link href="//mozilla.github.io/pdf.js/web/viewer.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        #the-canvas {
+            border: 1px solid black;
+            direction: ltr;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>PDF.js Previous/Next example</h1>
+
+    <div>
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
+        &nbsp; &nbsp;
+        <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+    </div>
+
+    <div id="mainContent"></div>
+
+    <!-- <canvas id="the-canvas"></canvas> -->
+    <!-- <div class="textLayer"></div> -->
+
+    <script src="newtest.js"></script>
+
+</body>
+
+</html>
